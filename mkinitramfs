@@ -32,7 +32,7 @@ fi
 
 printf "Creating $INITRAMFS_FILE... "
 
-binfiles="sh cat cp dd killall ls mkdir mknod mount lsblk nano grep mountpoint su chmod chown"
+binfiles="sh cat cp dd killall ls mkdir mknod mount lsblk grep mountpoint su chmod chown"
 binfiles="$binfiles umount sed sleep ln rm uname"
 binfiles="$binfiles readlink basename"
 
